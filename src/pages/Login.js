@@ -14,9 +14,12 @@ export default function Login() {
     }
   return (
     <>
-    <div className="sidenav">
+    <div className='text-center' style={{display:'flex',justifyContent:'center',alignContent:'center'}}>
+        <h1>Jaanu I LOVE YOU</h1>
+    </div>
+    {/* <div className="sidenav">
          <div className="login-main-text">
-            <h2>Application<br/> Login Page</h2>
+            <h2><br/> Login Page</h2>
             <p>Login or register from here to access.</p>
          </div>
       </div>
@@ -36,7 +39,7 @@ export default function Login() {
                </form>
             </div>
          </div>
-      </div>
+      </div> */}
       </>
   )
 }
