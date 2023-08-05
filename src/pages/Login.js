@@ -1,17 +1,17 @@
-import React, { useState } from 'react'
-import {useNavigate} from 'react-router-dom';
+import React from 'react'
+// import {useNavigate} from 'react-router-dom';
 import './login.css'
 export default function Login() {
-    const navigate=useNavigate();
-    const [name,setName]=useState('');
-    const [pwd,setPwd]=useState('');
-    const submit = (event) =>{
-        event.preventDefault();
-        if(name === 'satya' && pwd ==='1234'){
-            console.log("inside");
-            navigate('/Home');
-        }
-    }
+    // const navigate=useNavigate();
+    // const [name,setName]=useState('');
+    // const [pwd,setPwd]=useState('');
+    // const submit = (event) =>{
+    //     event.preventDefault();
+    //     if(name === 'satya' && pwd ==='1234'){
+    //         console.log("inside");
+    //         navigate('/Home');
+    //     }
+    // }
   return (
     <>
     <div className='text-center' style={{display:'flex',justifyContent:'center',alignContent:'center'}}>
