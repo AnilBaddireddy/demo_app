@@ -14,7 +14,7 @@ export default class Home extends Component {
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda, </p>
                     </div>
                     <div className="card-link">
-                        <a href="" className="c-link">Learn More
+                        <a href="/Home" className="c-link">Learn More
                             <i className="fa fa-angle-right"></i>
                         </a>
                     </div>
@@ -27,7 +27,7 @@ export default class Home extends Component {
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda, </p>
                     </div>
                     <div className="card-link">
-                        <a href="" className="c-link">Learn More
+                        <a href="/Home" className="c-link">Learn More
                             <i className="fa fa-angle-right"></i>
                         </a>
                     </div>
@@ -40,7 +40,7 @@ export default class Home extends Component {
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda, </p>
                     </div>
                     <div className="card-link">
-                        <a href="" className="c-link">Learn More
+                        <a href="/Home" className="c-link">Learn More
                             <i className="fa fa-angle-right"></i>
                         </a>
                     </div>
